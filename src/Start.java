@@ -5,7 +5,7 @@ public class Start {
 
     public Start(){
         window = new JFrame("Calculator");
-        window.setSize(250, 347);
+        window.setSize(270, 347);
         window.add(new Panel());
         window.setLocation(550, 300);
         window.setResizable(false);
